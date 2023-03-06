@@ -1,0 +1,20 @@
+{
+  "extends": "nx/presets/npm.json",
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "cacheableOperations": [
+          "android",
+          "ios",
+          "web"
+        ],
+        "accessToken": "MjI3ZmVkMTQtZTM0NS00MDI4LWFhNDItMDExZDJjOGI5MWZlfHJlYWQtd3JpdGU="
+      }
+    }
+  },
+  "targetDefaults": {},
+  "affected": {
+    "defaultBase": "master"
+  }
+}
